@@ -1,0 +1,19 @@
+{
+    "Guest" : {
+        "denied": {
+            "Comments": ["*"]
+        },
+        "Home": ["*"],
+        "Register": ["login", "register", "activate", "resendVerify", "forgotPassword", "passwordResetRequest", "pwresetTicket"],
+        "Restricted": ["*"]
+    },
+    "LoggedIn" : {
+        "denied": {
+            "Register": ["login", "register"]
+        },
+        "Register": ["logout"],
+        "Tools": ["*"],
+        "Profile": ["*"],
+        "Images": ["*"]
+    }
+}
